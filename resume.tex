@@ -1,0 +1,92 @@
+\documentclass{resume}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\hyphenpenalty=1
+
+\name{Tamika Nomara (They/Them)}
+
+\address{taminomara@gmail.com \\ https://github.com/taminomara}
+
+\begin{document}
+
+    Senior Rust developer with passion for distributed systems.
+    I love seeing results of my work making the world a better place.
+    I enjoy collaboration and
+    make sure that my solutions are
+    effective, clean, well tested and documented.
+    I believe that a diverse team of happy people
+    is a requirement for creating great things.
+
+    \begin{rSection}{Skills}
+        \begin{rSubsection}{}{}{}{}
+            \item
+                Rust;
+                C++ 17/20;
+                Python 3.
+                CI, CD, TDD, Version control.
+            \item
+                Distributed, scalable high-load systems.
+            \item
+                Developer productivity
+                (building infrastructure, tooling, plugins for IDEs).
+            % \item
+            %     Building software with reliability and ergonomics in mind.
+            % \item
+            %     Designing type-safe APIs that are easy and intuitive to use.
+        \end{rSubsection}
+        \begin{rSubsection}{}{}{}{}
+            \item
+                Owning systems,
+                being responsible for their development and operations.
+            \item
+                Proposing, designing and implementing new ideas,
+                being pro-active.
+            \item
+                Working in a team,
+                collaborating with other teams.
+        \end{rSubsection}
+    \end{rSection}
+
+    \begin{rSection}{Experience}
+        \begin{rSubsection}{Gnosis}{May 2021~--~Present}{Developer}{}
+            \item Using rust to build Gnosis Protocol DEX\@.
+        \end{rSubsection}
+
+        \begin{rSubsection}{Yandex N.V.}{July 2016~--~December 2020}{Developer}{}
+            \item
+                Designed and implemented an in-memory database
+                for our monitoring service.
+                Fault-tolerant, horizontally scalable,
+                it uses async C++ to provide on-line access
+                to the health status of thousands of systems.
+            \item
+                Developed an LLVM-powered C++ library
+                for extracting data from logs.
+                It uses map-reduce to handle hundreds of TBs of logs daily;
+                it has increased parsing speed
+                by 30\% and improved quality of analytics.
+            \item
+                Developed an efficient Python framework
+                for calculating results of AB experiments using map-reduce.
+                It has reduced the barrier
+                to integrate AB testing into a service,
+                enabling more Yandex projects to use AB\@.
+        \end{rSubsection}
+    \end{rSection}
+
+    \begin{rSection}{Education}
+        \begin{rSubsection}{Bachelor of Computer Science}{2014~--~2018}
+        {National Research University Higher School of Economics, Moscow, Russia}{}
+            Major in Distributed Computing
+        \end{rSubsection}
+    \end{rSection}
+
+\end{document}
