@@ -25,14 +25,15 @@
 
 \begin{document}
 
-    Senior Rust developer with passion for distributed systems.
-    I love seeing results of my work making the world a better place.
-
-    % I believe that a diverse team of happy people
-    % is a requirement for creating great things.
+    Senior Rust/C++ developer with passion for distributed systems.
     
-    % Untested code cannot be trusted, undocumented APIs might
-    % as well not exist.
+    I love seeing results of my work making the world a better place.
+    
+    I believe that a diverse team of happy people
+    is a requirement for creating great things.
+    
+    Untested code cannot be trusted, undocumented APIs might
+    as well not exist.
 
     \begin{rSection}{Skills}
         \begin{rSubsection}{}{}{}{}
@@ -42,14 +43,16 @@
                 Python 3.
                 CI, CD, TDD, Version control.
             \item
-                Distributed, scalable high-load systems; compilers.
-            \item
+                Distributed, scalable high-load systems;
+                Compilers;
                 Developer productivity
-                (building infrastructure, tooling, plugins for IDEs).
-            % \item
-            %     Building software with reliability and ergonomics in mind.
-            % \item
-            %     Designing type-safe APIs that are easy and intuitive to use.
+                (infrastructure, tooling, etc).
+        \end{rSubsection}
+        \begin{rSubsection}{}{}{}{}
+            \item
+                Building software with reliability and ergonomics in mind.
+            \item
+                Designing type-safe APIs that are easy and intuitive to use.
         \end{rSubsection}
         \begin{rSubsection}{}{}{}{}
             \item
@@ -70,21 +73,20 @@
     \begin{rSection}{Experience}
         \begin{rSubsection}{Gnosis}{May 2021~--~February 2022}{Developer}{}
             \item
-                Used rust to build and improve Gnosis Protocol DEX,
+                Used Rust to build and improve Gnosis Protocol DEX,
                 as well as the infrastructure around the project.
             \item
-                Refactored the way we reported Prometheus metrics
+                Refactored the way we report Prometheus metrics
                 by introducing a new library
                 \href{https://github.com/taminomara/prometheus-metric-storage}{prometheus-metric-storage}.
-                It made adding new metrics
+                It turned adding new metrics
                 and maintain existing ones into an easy task,
                 improved observability of the whole system,
                 allowed us to setup better alerting.
             \item
                 Implemented a system for mocking Ethereum contracts
-                without having to run a full-blown blockchain.
-                It has greatly improved testability of the codebase
-                and made unit-testing into a pleasant, painless task.
+                without having to run a blockchain instance.
+                It has greatly improved testability of the codebase.
             \item
                 Used python to automate several on-call processes,
                 making it easier to deploy services and keep them healthy.
