@@ -29,7 +29,7 @@
     
     I love seeing results of my work making the world a better place.
     
-    I believe that a diverse team and good working environment
+    I believe that a diverse team in good working environment
     is a requirement for creating great things.
     
     Untested code cannot be trusted, undocumented APIs might
@@ -62,9 +62,6 @@
                 Proposing, designing and implementing new ideas,
                 being pro-active.
             \item
-                Ensuring that my solutions are
-                effective, clean, well tested and documented.
-            \item
                 Working in a team,
                 collaborating with other teams,
                 mentoring junior colleagues.
@@ -75,14 +72,12 @@
         \begin{rSubsection}{Gnosis LLC}{May 2021~--~February 2022}{Senior software engineer}{}
             \item
                 Used Rust to build and improve
-                a distributed cryptocurrency exchange (Gnosis Protocol),
-                as well as the infrastructure around the project.
+                a distributed cryptocurrency exchange and its infrastructure.
             \item
                 Refactored the way we report Prometheus metrics
                 by introducing a new library
-                \href{https://github.com/taminomara/prometheus-metric-storage}{prometheus-metric-storage}.
-                It turned adding and maintaining metrics into an easy task,
-                improving observability of the service.
+                \href{https://github.com/taminomara/prometheus-metric-storage}{prometheus-metric-storage}, which made it easier to add and maintain metrics,
+                improved observability of the service.
             \item
                 Implemented a system for
                 \href{https://docs.rs/ethcontract-mock/latest/ethcontract_mock/}{mocking Ethereum contracts}
@@ -105,9 +100,14 @@
             \item
                 Developed an LLVM-powered C++ library
                 for extracting data from logs.
-                It uses map-reduce to handle hundreds of TBs of logs daily;
-                it has increased parsing speed
+                It has increased log parsing speed
                 by 30\% and improved quality of analytics.
+            \item
+                Implemented compiler for a language for describing
+                versioned data types, schemas and data transformations
+                for our log delivery pipeline. The language
+                generates a C++ or Python API for a data source,
+                promoting consistent language-independent approach to data handling.
             \item
                 Developed an efficient Python framework
                 for calculating results of AB experiments using map-reduce.
